@@ -216,3 +216,65 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# R
+# History, workspace, projects, packages
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj
+
+# renv (R dependency manager)
+renv/library/
+renv/staging/
+
+# LaTeX build artifacts
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.bbl
+*.blg
+*.brf
+*.nav
+*.snm
+*.synctex.gz
+*.fdb_latexmk
+*.xdv
+_minted-*/
+*.pdfsync
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+.jupyter/
+.jupyter-cache/
+
+# VS Code
+.vscode/
+.history/
+
+# Anaconda / conda
+# ignore local env dirs and package caches
+env/
+envs/
+.conda/
+conda-meta/
+.conda-env
+anaconda-project.yml
+
+# Kubuntu / Linux desktop
+# user cache and trash
+.cache/
+.local/share/Trash/
+.local/share/Trash-*/
+
