@@ -278,3 +278,5 @@ anaconda-project.yml
 .local/share/Trash/
 .local/share/Trash-*/
 
+# OSs
+.DS_Store
